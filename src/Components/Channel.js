@@ -86,6 +86,7 @@ const Channel = ({ user = null }) => {
         <form
           onSubmit={handleOnSubmit}
           className="flex flex-row bg-gray-200 dark:bg-coolDark-400 rounded-md px-4 py-3 z-10 max-w-screen-lg mx-auto dark:text-white shadow-md"
+          data-netlify="true"
         >
           <input
             ref={inputRef}
